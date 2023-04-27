@@ -123,9 +123,9 @@ function handleDownload() {
 		<>
 				<Container>
 					<Row>
-								<th style={{ width: 175 }}>Name</th>
-								<th style={{ width: 175 }}>Price USD</th>
-								<th style={{ width: 175 }}>Monthly interest</th>
+								<th style={{ width: 165 }}>Name</th>
+								<th style={{ width: 150 }}>Price USD</th>
+								<th style={{ width: 185 }}>Monthly interest</th>
 								<th style={{ width: 175 }}>Capital</th>
 								<th style={{ width: 175 }}>Compound interst</th>
 								<th style={{ width: 175 }}>Earning in crypto</th>
