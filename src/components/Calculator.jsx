@@ -51,7 +51,7 @@ function Calculator() {
     const interval = setInterval(() => {
       getApiCoins();
     }, 20000);
-    // return () => clearInterval(interval);
+    return () => clearInterval(interval);
 	}, []);
 
 	useEffect(() => {
