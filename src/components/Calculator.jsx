@@ -2,17 +2,7 @@ import React from 'react'
 import { Container, Row, Col, Table } from 'react-bootstrap';
 
 
-function calcularGananciaAnualInteresCompuesto(P, r, n, t, cripto) {
-	var A = P * Math.pow(1 + r/n, n*t);
-	var B = A / cripto
-	 
-	return { dollars: A.toFixed(2), crypto: B}; // Redondeamos el resultado a dos decimales
-  }
-function calcularGananciaAnualInteresSimple(P, r, t, cripto) {
-	var A = P * r * t;
-	var B = A / cripto
-	return { dollars: A.toFixed(2), crypto: B};  // Redondeamos el resultado a dos decimales
-  }
+
 
 
 
